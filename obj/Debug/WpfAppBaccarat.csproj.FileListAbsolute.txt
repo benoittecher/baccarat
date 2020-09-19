@@ -1,0 +1,15 @@
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\bin\Debug\WpfAppBaccarat.exe.config
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\bin\Debug\WpfAppBaccarat.exe
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\bin\Debug\WpfAppBaccarat.pdb
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.csprojAssemblyReference.cache
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\MainWindow.g.cs
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\App.g.cs
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat_MarkupCompile.cache
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat_MarkupCompile.lref
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\MainWindow.baml
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.g.resources
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.Properties.Resources.resources
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.csproj.GenerateResource.cache
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.csproj.CoreCompileInputs.cache
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.exe
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.pdb
