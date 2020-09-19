@@ -16,7 +16,11 @@ namespace WpfAppBaccarat.Utils
             for (int k = 0; k < j; k++)
             {
                 if (numerosSortis[k].Equals("T")) result[k] = "Nul";
-                else result[k] = (numerosSortis[k].Equals(numerosJoues[k])) ? "Gagné" : "Perdu";
+                else
+                {
+                    if (numerosJoues[k].Equals("I")) result[k] = "Nul";
+                    else result[k] = (numerosSortis[k].Equals(numerosJoues[k])) ? "Gagné" : "Perdu";
+                }
             }
             for (int k = j; k < i; k++)
             {

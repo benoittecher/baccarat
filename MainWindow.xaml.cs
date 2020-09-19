@@ -64,5 +64,14 @@ namespace WpfAppBaccarat
         {
             txtNumsTombes.Text += "T" + Environment.NewLine;
         }
+
+        private void Initialisation_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsJoues.Text = String.Empty;
+            for (int i = 0; i < 17; i++)
+            {
+                txtNumsJoues.Text += "I " + Environment.NewLine;
+            }
+        }
     }
 }
