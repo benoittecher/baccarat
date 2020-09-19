@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace WpfAppBaccarat.Utils
 {
-    public class MontanteClassique
+    public class MontantePerteBlock
     {
         public float SoldeDepart { get; set; }
         public float Solde { get; set; }
         public string[] ListeResultats { get; set; }
-        public MontanteClassique()
+        public MontantePerteBlock()
         {
             SoldeDepart = 1000;
             SoldeDepart = Solde;

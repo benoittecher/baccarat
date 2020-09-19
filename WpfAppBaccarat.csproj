@@ -55,9 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\NumsJoues.cs" />
+    <Compile Include="Model\NumsTombes.cs" />
+    <Compile Include="Model\Resultats.cs" />
     <Compile Include="Utils\ArrayFunctions.cs" />
     <Compile Include="Utils\ArrayStringFunctions.cs" />
-    <Compile Include="Utils\MontanteClassique.cs" />
+    <Compile Include="Utils\MontantePerteBlock.cs" />
+    <Compile Include="ViewModel\GestionNumsJoues.cs" />
+    <Compile Include="ViewModel\GestionNumsTombes.cs" />
+    <Compile Include="ViewModel\GestionResultats.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

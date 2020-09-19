@@ -73,5 +73,15 @@ namespace WpfAppBaccarat
                 txtNumsJoues.Text += "I " + Environment.NewLine;
             }
         }
+
+        private void AddIgnoreToJoue_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsJoues.Text += "I" + Environment.NewLine;
+        }
+
+        private void AddIgnoreToReel_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsTombes.Text += "I" + Environment.NewLine;
+        }
     }
 }
