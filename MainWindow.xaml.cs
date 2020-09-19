@@ -37,19 +37,32 @@ namespace WpfAppBaccarat
 
         }
 
-        private void AddPlayer_Click(object sender, RoutedEventArgs e)
+        private void AddPlayerToJoue_Click(object sender, RoutedEventArgs e)
         {
             txtNumsJoues.Text += "P" + Environment.NewLine;
         }
 
-        private void AddBanker_Click(object sender, RoutedEventArgs e)
+        private void AddBankerToJoue_Click(object sender, RoutedEventArgs e)
         {
             txtNumsJoues.Text += "B" + Environment.NewLine;
         }
 
-        private void AddTie_Click(object sender, RoutedEventArgs e)
+        private void AddTieToJoue_Click(object sender, RoutedEventArgs e)
         {
             txtNumsJoues.Text += "T" + Environment.NewLine;
+        }
+
+        private void AddPlayerToReel_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsTombes.Text += "P" + Environment.NewLine;
+        }
+        private void AddBankerToReel_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsTombes.Text += "B" + Environment.NewLine;
+        }
+        private void AddTieToReel_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsTombes.Text += "T" + Environment.NewLine;
         }
     }
 }
