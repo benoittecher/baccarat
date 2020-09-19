@@ -15,12 +15,12 @@ namespace WpfAppBaccarat.Utils
             string[] result = new string[i];
             for (int k = 0; k < j; k++)
             {
-                if (numerosSortis[k].Equals("T")) result[k] = "0";
-                else result[k] = (numerosSortis[k].Equals(numerosJoues[k])) ? "1" : "-1";
+                if (numerosSortis[k].Equals("T")) result[k] = "Nul";
+                else result[k] = (numerosSortis[k].Equals(numerosJoues[k])) ? "Gagné" : "Perdu";
             }
             for (int k = j; k < i; k++)
             {
-                result[k] = "0";
+                result[k] = "Nul";
             }
             return result;
         }

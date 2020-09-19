@@ -14,12 +14,12 @@
         <Label Content="Tirage espéré" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" Width="90"/>
         <Label Content="Résultat" HorizontalAlignment="Left" Margin="531,10,0,0" VerticalAlignment="Top" Width="90"/>
         <Button Content="Afficher résultat" HorizontalAlignment="Left" Margin="649,73,0,0" VerticalAlignment="Top" Width="89" Click="AfficherResultat_Click"/>
-        <Button Content="Player" HorizontalAlignment="Left" Margin="39,73,0,0" VerticalAlignment="Top" Width="75" Background="#FF336BCD" Click="AddPlayerToJoue_Click"/>
-        <Button Content="Banker" HorizontalAlignment="Left" Margin="39,98,0,0" VerticalAlignment="Top" Width="75" Background="#FFA23827" Click="AddBankerToJoue_Click"/>
-        <Button Content="Tie" HorizontalAlignment="Left" Margin="39,123,0,0" VerticalAlignment="Top" Width="75" Background="#FF2CBB1E" Click="AddTieToJoue_Click"/>
-        <Button Content="Player" HorizontalAlignment="Left" Margin="416,73,0,0" VerticalAlignment="Top" Width="75" Background="#FF336BCD" Click="AddPlayerToReel_Click"/>
-        <Button Content="Banker" HorizontalAlignment="Left" Margin="416,98,0,0" VerticalAlignment="Top" Width="75" Background="#FFA23827" Click="AddBankerToReel_Click"/>
-        <Button Content="Tie" HorizontalAlignment="Left" Margin="416,123,0,0" VerticalAlignment="Top" Width="75" Background="#FF2CBB1E" Click="AddTieToReel_Click"/>
+        <Button Content="Player" HorizontalAlignment="Left" Margin="39,42,0,0" VerticalAlignment="Top" Width="107" Background="#FF336BCD" Click="AddPlayerToJoue_Click" Height="51"/>
+        <Button Content="Banker" HorizontalAlignment="Left" Margin="39,123,0,0" VerticalAlignment="Top" Width="107" Background="#FFA23827" Click="AddBankerToJoue_Click" Height="52"/>
+        <Button Content="Tie" HorizontalAlignment="Left" Margin="39,204,0,0" VerticalAlignment="Top" Width="107" Background="#FF2CBB1E" Click="AddTieToJoue_Click" Height="50"/>
+        <Button Content="Player" HorizontalAlignment="Left" Margin="416,42,0,0" VerticalAlignment="Top" Width="95" Background="#FF336BCD" Click="AddPlayerToReel_Click" Height="51"/>
+        <Button Content="Banker" HorizontalAlignment="Left" Margin="416,126,0,0" VerticalAlignment="Top" Width="95" Background="#FFA23827" Click="AddBankerToReel_Click" Height="49"/>
+        <Button Content="Tie" HorizontalAlignment="Left" Margin="416,204,0,0" VerticalAlignment="Top" Width="95" Background="#FF2CBB1E" Click="AddTieToReel_Click" Height="50"/>
 
 
     </Grid>
