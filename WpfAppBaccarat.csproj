@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="Utils\ArrayFunctions.cs" />
     <Compile Include="Utils\ArrayStringFunctions.cs" />
+    <Compile Include="Utils\MontanteClassique.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

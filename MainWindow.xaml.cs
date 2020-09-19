@@ -36,5 +36,20 @@ namespace WpfAppBaccarat
             txtResultats.Text = ArrayStringFunctions.ArrayToString(resultatsArray);
 
         }
+
+        private void AddPlayer_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsJoues.Text += "P" + Environment.NewLine;
+        }
+
+        private void AddBanker_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsJoues.Text += "B" + Environment.NewLine;
+        }
+
+        private void AddTie_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumsJoues.Text += "T" + Environment.NewLine;
+        }
     }
 }

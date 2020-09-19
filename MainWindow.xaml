@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF425F3A">
-        <TextBox x:Name="txtNumsTombes" HorizontalAlignment="Left" Height="350" Margin="103,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True"/>
-        <TextBox x:Name="txtNumsJoues" HorizontalAlignment="Left" Height="350" Margin="299,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True"/>
+        <TextBox x:Name="txtNumsTombes" HorizontalAlignment="Left" Height="350" Margin="299,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True"/>
+        <TextBox x:Name="txtNumsJoues" HorizontalAlignment="Left" Height="350" Margin="186,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True"/>
         <TextBox x:Name="txtResultats" HorizontalAlignment="Left" Height="350" Margin="531,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True"/>
-        <Label Content="Tirage réel" HorizontalAlignment="Left" Margin="103,10,0,0" VerticalAlignment="Top" Width="90"/>
-        <Label Content="Tirage espéré" HorizontalAlignment="Left" Margin="299,10,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Tirage réel" HorizontalAlignment="Left" Margin="299,10,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Tirage espéré" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" Width="90"/>
         <Label Content="Résultat" HorizontalAlignment="Left" Margin="531,10,0,0" VerticalAlignment="Top" Width="90"/>
         <Button Content="Afficher résultat" HorizontalAlignment="Left" Margin="649,73,0,0" VerticalAlignment="Top" Width="89" Click="AfficherResultat_Click"/>
+        <Button Content="Player" HorizontalAlignment="Left" Margin="39,73,0,0" VerticalAlignment="Top" Width="75" Background="#FF336BCD" Click="AddPlayer_Click"/>
+        <Button Content="Banker" HorizontalAlignment="Left" Margin="39,98,0,0" VerticalAlignment="Top" Width="75" Background="#FFA23827" Click="AddBanker_Click"/>
+        <Button Content="Tie" HorizontalAlignment="Left" Margin="39,123,0,0" VerticalAlignment="Top" Width="75" Background="#FF2CBB1E" Click="AddTie_Click"/>
+
 
     </Grid>
 </Window>

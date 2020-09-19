@@ -24,5 +24,7 @@ namespace WpfAppBaccarat.Utils
             }
             return result;
         }
+
+
     }
 }
