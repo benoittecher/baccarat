@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace WpfAppBaccarat.Model
 {
-    public class Resultats
+    public class Montante_7_Boules : Montante
     {
-        public string[] List { get; set; }
+        public override float[] ListeMise()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -55,15 +55,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Model\NumsJoues.cs" />
-    <Compile Include="Model\NumsTombes.cs" />
-    <Compile Include="Model\Resultats.cs" />
+    <Compile Include="Model\Jeu.cs" />
+    <Compile Include="Model\Montante.cs" />
+    <Compile Include="Model\MontanteGainBlock.cs" />
+    <Compile Include="Model\MontantePerteBlock.cs" />
+    <Compile Include="Model\Montante_7_Boules.cs" />
+    <Compile Include="Model\Montante_Dent_De_Scie.cs" />
+    <Compile Include="Model\Montante_Fibonacci.cs" />
+    <Compile Include="Model\Montante_Gain_3_1.cs" />
+    <Compile Include="Model\Montante_Perte_3_2.cs" />
     <Compile Include="Utils\ArrayFunctions.cs" />
     <Compile Include="Utils\ArrayStringFunctions.cs" />
-    <Compile Include="Utils\MontantePerteBlock.cs" />
-    <Compile Include="ViewModel\GestionNumsJoues.cs" />
-    <Compile Include="ViewModel\GestionNumsTombes.cs" />
-    <Compile Include="ViewModel\GestionResultats.cs" />
+    <Compile Include="ViewModel\GestionJeu.cs" />
+    <Compile Include="View\PgMontante.xaml.cs">
+      <DependentUpon>PgMontante.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PgSaisieResultats.xaml.cs">
+      <DependentUpon>PgSaisieResultats.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +85,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\PgMontante.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PgSaisieResultats.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

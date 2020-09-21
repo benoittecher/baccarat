@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfAppBaccarat.Model
 {
-    public class NumsTombes
+    public class Montante_Fibonacci : Montante
     {
-        public string[] List { get; set; }
     }
 }

@@ -31,5 +31,16 @@ namespace WpfAppBaccarat.Utils
             }
             return result;
         }
+        // Surcharge pour les tableaux de nombres à convertir en string
+        public static string ArrayToString(float[] arrayToConvert)
+        {
+            int _l = arrayToConvert.Length;
+            string[] stringArray = new string[_l];
+            for (int i = 0; i < _l; i++)
+            {
+                stringArray[i] = arrayToConvert[i].ToString();
+            }
+            return ArrayToString(stringArray);
+        }
     }
 }

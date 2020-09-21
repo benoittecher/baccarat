@@ -5,25 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppBaccarat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FF425F3A">
-        <TextBox x:Name="txtNumsTombes" HorizontalAlignment="Left" Height="350" Margin="299,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
-        <TextBox x:Name="txtNumsJoues" HorizontalAlignment="Left" Height="350" Margin="186,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
-        <TextBox x:Name="txtResultats" HorizontalAlignment="Left" Height="350" Margin="531,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
-        <Label Content="Tirage réel" HorizontalAlignment="Left" Margin="299,10,0,0" VerticalAlignment="Top" Width="90"/>
-        <Label Content="Tirage espéré" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" Width="90"/>
-        <Label Content="Résultat" HorizontalAlignment="Left" Margin="531,10,0,0" VerticalAlignment="Top" Width="90"/>
-        <Button Content="Afficher résultat" HorizontalAlignment="Left" Margin="649,73,0,0" VerticalAlignment="Top" Width="89" Click="AfficherResultat_Click"/>
-        <Button Content="Player" HorizontalAlignment="Left" Margin="39,42,0,0" VerticalAlignment="Top" Width="96" Background="#FF336BCD" Click="AddPlayerToJoue_Click" Height="51"/>
-        <Button Content="Banker" HorizontalAlignment="Left" Margin="39,123,0,0" VerticalAlignment="Top" Width="96" Background="#FFA23827" Click="AddBankerToJoue_Click" Height="52"/>
-        <Button Content="Tie" HorizontalAlignment="Left" Margin="39,204,0,0" VerticalAlignment="Top" Width="96" Background="#FF2CBB1E" Click="AddTieToJoue_Click" Height="50"/>
-        <Button Content="Player" HorizontalAlignment="Left" Margin="416,42,0,0" VerticalAlignment="Top" Width="95" Background="#FF336BCD" Click="AddPlayerToReel_Click" Height="51"/>
-        <Button Content="Banker" HorizontalAlignment="Left" Margin="416,126,0,0" VerticalAlignment="Top" Width="95" Background="#FFA23827" Click="AddBankerToReel_Click" Height="49"/>
-        <Button Content="Tie" HorizontalAlignment="Left" Margin="416,204,0,0" VerticalAlignment="Top" Width="95" Background="#FF2CBB1E" Click="AddTieToReel_Click" Height="50"/>
-        <Button Content="Initialiser 17 premiers" HorizontalAlignment="Left" Margin="649,139,0,0" VerticalAlignment="Top" Width="120" Click="Initialisation_Click"/>
-        <Button Content="Ignore" HorizontalAlignment="Left" Margin="39,280,0,0" VerticalAlignment="Top" Width="96" Background="#FFDCD30F" Click="AddIgnoreToJoue_Click" Height="50"/>
-        <Button Content="Ignore" HorizontalAlignment="Left" Margin="416,280,0,0" VerticalAlignment="Top" Width="95" Background="#FFDCD30F" Click="AddIgnoreToReel_Click" Height="50"/>
+        Title="Baccarat" Height="500" Width="900"
+        Background="#FF425F3A">
+    <Frame x:Name="frmPrincipal" Content="Frame" HorizontalAlignment="Left" Height="450" Margin="90,0,0,0" VerticalAlignment="Top" Width="800"/>
 
-
-    </Grid>
 </Window>

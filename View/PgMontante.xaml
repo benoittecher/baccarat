@@ -1,0 +1,25 @@
+﻿<Page x:Class="WpfAppBaccarat.View.PgMontante"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppBaccarat.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PgMontante">
+
+    <Grid Background="#FF5A953E">
+        <Label Content="Solde initial" HorizontalAlignment="Left" Margin="71,45,0,0" VerticalAlignment="Top"/>
+        <Label Content="Mise initiale" HorizontalAlignment="Left" Margin="71,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSoldeInitial" HorizontalAlignment="Left" Margin="168,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="57" Text="1000"/>
+        <TextBox x:Name="txtMiseInitiale" HorizontalAlignment="Left" Margin="168,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="57" Text="1"/>
+        <ComboBox x:Name="cbbMontantes" HorizontalAlignment="Left" Margin="168,134,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Choix Montante" HorizontalAlignment="Left" Margin="71,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMises" HorizontalAlignment="Left" Height="344" Margin="395,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122"/>
+        <Label Content="Mises" HorizontalAlignment="Left" Margin="417,10,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="txtSolde" HorizontalAlignment="Left" Height="344" Margin="589,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122"/>
+        <Label Content="Solde" HorizontalAlignment="Left" Margin="608,10,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Content="Générer listes" HorizontalAlignment="Left" Margin="270,369,0,0" VerticalAlignment="Top" Width="75" Click="GenererListes_Click"/>
+
+    </Grid>
+</Page>

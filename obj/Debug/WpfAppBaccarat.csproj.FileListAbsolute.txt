@@ -1,7 +1,6 @@
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\bin\Debug\WpfAppBaccarat.exe.config
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\bin\Debug\WpfAppBaccarat.exe
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\bin\Debug\WpfAppBaccarat.pdb
-C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.csprojAssemblyReference.cache
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\MainWindow.g.cs
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\App.g.cs
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat_MarkupCompile.cache
@@ -13,3 +12,8 @@ C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBa
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.csproj.CoreCompileInputs.cache
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.exe
 C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.pdb
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\View\PgMontante.g.cs
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\View\PgSaisieResultats.g.cs
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\View\PgMontante.baml
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\View\PgSaisieResultats.baml
+C:\Users\stagiaire\source\repos\WpfAppBaccarat\WpfAppBaccarat\obj\Debug\WpfAppBaccarat.csprojAssemblyReference.cache
